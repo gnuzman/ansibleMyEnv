@@ -1,2 +1,2 @@
 - name: reboot all server
-  shell: touch /root/123
+  shell: rm /root/123
