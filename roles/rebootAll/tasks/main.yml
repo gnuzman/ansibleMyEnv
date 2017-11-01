@@ -1,2 +1,2 @@
 - name: reboot all server
-  shell: sudo reboot
+  shell: touch /root/123
