@@ -1,2 +1,2 @@
 - name: reboot all server
-  shell: rm /root/123
+  shell: reboot
