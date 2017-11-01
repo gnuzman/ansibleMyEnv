@@ -1,5 +1,5 @@
 ---
-- name: init zookeeper
+- name: init kafka
   hosts: all
   roles:
-    - initZookeeper
+    - initKafka
