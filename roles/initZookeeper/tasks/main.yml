@@ -1,2 +1,2 @@
-- name: test
+- name: start zookeeper server
   shell: cd /usr/local/zookeeper/bin;./zkServer.sh start

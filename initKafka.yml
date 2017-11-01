@@ -1,0 +1,5 @@
+---
+- name: init zookeeper
+  hosts: all
+  roles:
+    - initZookeeper
