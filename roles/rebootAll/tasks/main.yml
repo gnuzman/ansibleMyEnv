@@ -1,2 +1,2 @@
 - name: reboot all server
-  shell: reboot
+  shell: sudo reboot
