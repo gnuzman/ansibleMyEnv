@@ -1,0 +1,5 @@
+---
+- name: update rancher agent
+  hosts: rancher-agent
+  roles:
+    - rancherAgent
