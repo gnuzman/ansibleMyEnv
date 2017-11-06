@@ -1,0 +1,5 @@
+---
+- name: shutdown all
+  hosts: all
+  roles:
+    - shutdownAll
