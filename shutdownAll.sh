@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ansible-playbook -i /root/ansibleMyEnv/environment/dev/all /root/ansibleMyEnv/rebootAll.yml
+ansible-playbook -i /root/ansibleMyEnv/environment/dev/all /root/ansibleMyEnv/shutdownAll.yml
