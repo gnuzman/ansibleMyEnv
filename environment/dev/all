@@ -19,5 +19,3 @@
 192.168.42.204 ansible_user=root ansible_ssh_pass=jhpu3333
 192.168.42.205 ansible_user=root ansible_ssh_pass=jhpu3333
 192.168.42.206 ansible_user=root ansible_ssh_pass=jhpu3333
-[ansible]
-192.168.42.5 ansible_user=root ansible_ssh_pass=jhpu3333
