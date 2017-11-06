@@ -1,2 +1,4 @@
 - name: shutdown all server
   shell: shutdown -h now
+  async: 0
+  poll: 0
