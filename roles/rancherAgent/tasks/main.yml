@@ -1,6 +1,4 @@
 - name: update rancher-agent
-  shell: apt update
-  shell: apt upgrade
   shell: docker kill $(docker ps -a -q)
   shell: docker rm $(docker ps -a -q)
   shell: sudo docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.6 http://192.168.42.3:8080/v1/scripts/054871213AEC8FB6E2F5:1483142400000:3aFc41VKZihFC8Fy2N8nNG4IDao
